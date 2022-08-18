@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://www.reliablesoft.net/wp-content/uploads/2013/04/high-quality-web-site-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.jumbotron {
+	text-align: center;
+}
+
+.registration-form, .login-form{
+	width: 800px;
+	font-weight: bold;
+	margin: 10px auto;
+	border-radius: 20px;
+	border-color: black;
+	padding: 10px 10px 30px;
+	box-shadow: 11px -16px 18px 20px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.login-form {
+	margin-top: 100px;
+	padding: 10px 30px 30px;
+	
+}
+
+.sign-up-title, .login-title, .button-wrapper {
+	text-align: center;
+}
+
+.signup-alert, .login-alert {
+	margin: 10px auto 20px;
+	display: none;
+}
+
+.login-alert {
+	width: 75%;
+}
